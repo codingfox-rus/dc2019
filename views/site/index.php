@@ -1,53 +1,298 @@
 <?php
-
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Компания Дроб-комплекс';
 ?>
 <div class="site-index">
 
+    <a name="index"></a>
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <h2>Добро пожаловать на сайт компании</h2>
+        <h1>Дроб-комплекс!</h1>
     </div>
 
-    <div class="body-content">
+    <div class="features">
+        <div class="row">
+            <div class="text-center">
+                <h1>Наши возможности</h1>
+            </div>
+            <hr>
+
+            <div class="col-lg-3">
+                <div class="feature bg-primary">
+                    Дробильно-сортировочное оборудование на заказ по доступным ценам.
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="feature bg-primary">
+                    Услуги по изготовлению и монтажу оборудования.
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="feature bg-primary">
+                    Изготовление металлоконструкций, нестандартное оборудование по чертежам заказчика.
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="feature bg-primary">
+                    Проектное сопровождение, документация к оборудованию.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="services"></a>
+    <div class="services">
+        <div class="text-center">
+            <h1>Наши услуги</h1>
+        </div>
+        <hr>
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <div class="service bg-success">
+                    <h2>Производство</h2>
+                    <br>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                    <div class="content">
+                        <p>Производство размещено в г. Димитровграде Ульяновской области в промышленной зоне. Площадь территории - 5000 кв. м. Площадь производственного корпуса составляет 600 кв. м.</p>
+                        <p>В нем производится следующий производственный цикл:</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                        <ol>
+                            <li>Прием, разгрузка и хранение металлопроката</li>
+                            <li>Склад запасных частей</li>
+                            <li>Отделение токарно-фрезерных, слесарных работ</li>
+                            <li>Отделение сварочных работ и сборки изделий</li>
+                            <li>Отделение окраски </li>
+                        </ol>
+
+                        <p>В производственном корпусе также расположены бытовые помещения</p>
+                        <p>Для проведения погрузо-разгрузочных работ на базе имеется мостовой кран грузоподъемностью Q = 12 т., электротельфер Q = 12 т.</p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <div class="service bg-success">
+                    <h2>Капремонт</h2>
+                    <br>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                    <div class="content">
+                        <p>Кроме нового оборудования, компания "Русдробмаш" по заявке заказчика производит капитальный ремонт оборудования, бывшего в эксплуатации.</p>
+                        <p>Производится тщательная дефектация узлов и деталей. Не подлежащие ремонту детали подлежат замене.</p>
+                        <p>Полностью заменяются в оборудовании так называемые расходные материалы (подшипники, сальники, манжеты, смазка, крепеж)</p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4">
-                <h2>Heading</h2>
+                <div class="service bg-success">
+                    <h2>Проектирование</h2>
+                    <br>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                    <div class="content">
+                        <p>Оборудование компании изготавливается по заводским чертежам, согласно ТУ и ГОСТ. Продукция сертифицирована.</p>
+                        <p>Выполняются все виды работ по проектированию дробильно-сортировочных установок (монтажная часть, металлоконструкции (стадии КМ и КМД), строительная часть, фундаменты, силовое электрооборудование, освещение).</p>
+                        <p>К приобретенному оборудованию прилагаются: паспорта, инструкции по эксплуатации, технические формуляры, сертификат соответствия.</p>
+                        <p>Стоимость проектных работ входит в стоимость оборудования. </p>
+                        <p>Также изготавливаются металлоконструкции по эскизам и чертежам заказчика</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="service bg-success">
+                    <h2>Шеф-монтаж</h2>
+                    <br>
 
+                    <div class="content">
+                        <p>Компания "Русдробмаш" производит монтаж и шеф-монтаж "под ключ" выпускаемого оборудования. Специалисты имеют большой опыт монтажа дробильно-сортировочных установок (ДСУ-30, ДСУ-90 и производственные линии от них) по России.</p>
+                        <p>Данные работы производятся по отдельному договору, подписанным заинтересованными сторонами.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service bg-success">
+                    <h2>Обучение</h2>
+                    <br>
+
+                    <div class="content">
+                        <p>Компания "Русдробмаш" производит обучение и консультации персонала, эксплуатирующее установленное оборудование (в процессе шеф-монтажа и дополнительного семинара в течение 4 ч.).</p>
+                        <p>Предоставляется полная техническая информация по эксплуатации, ремонту и техническому обслуживанию.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="products"></a>
+    <div class="products">
+        <div class="text-center">
+            <h1>Наша продукция</h1>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-dsu-30.jpg" alt="ДСУ-30" title="ДСУ-30" class="img-responsive" data-partial="dsu30">
+                    </div>
+
+                    <div class="text-center product-title">
+                        ДСУ-30
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-dsu-90.jpg" alt="ДСУ-90" title="ДСУ-90" class="img-responsive" data-partial="dsu90">
+                    </div>
+
+                    <div class="text-center product-title">
+                        ДСУ-90
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-drobilka.jpg" alt="Дробилки" title="Дробилки" class="img-responsive" data-partial="drobilka">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Дробилки
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-mill.jpg" alt="Мельницы" title="Мельницы" class="img-responsive" data-partial="mill">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Мельницы
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-feeder.jpg" alt="Питатели" title="Питатели" class="img-responsive" data-partial="feeder">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Питатели
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-riddle.jpg" alt="Грохоты" title="Грохоты" class="img-responsive" data-partial="riddle">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Грохоты
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-conveyor.jpg" alt="Конвейеры" title="Конвейеры" class="img-responsive" data-partial="conveyor">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Конвейеры
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-klassifier.jpg" alt="Классификаторы" title="Классификаторы" class="img-responsive" data-partial="klassifier">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Классификаторы
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-roller.jpg" alt="Рольганги" title="Рольганги" class="img-responsive" data-partial="roller">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Рольганги
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/product-elevator.jpg" alt="Элеваторы" title="Элеваторы" class="img-responsive" data-partial="elevator">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Элеваторы
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="contacts"></a>
+    <div class="contacts">
+        <div class="text-center">
+            <h1>Контакты</h1>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr>
+                        <td><strong>Телефон</strong></td>
+                        <td>8 (951) 997 00 77</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>rusdm98@mail.ru</td>
+                    </tr>
+                    <tr>
+                        <td>Адрес</td>
+                        <td>Россия, Чувашская Республика, п.г.т. Урмары, ул. Механизаторов, д.8</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    <!-- Dynamic loading -->
+                </h4>
+            </div>
+            <div class="modal-body">
+                <!-- Dynamic loading -->
+            </div>
+        </div>
     </div>
 </div>

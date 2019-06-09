@@ -1,0 +1,59 @@
+.feature {
+    font-size: 120%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    min-height: 150px;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.services {
+    margin-top: 80px;
+}
+
+.service {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.service .content {
+    font-size: 110%;
+}
+
+.service .content ol {
+    padding: 0;
+    margin: 0;
+}
+
+.products {
+    margin-top: 80px;
+}
+
+.product {
+    margin-bottom: 15px;
+}
+
+.product .img-wrapper {
+    position: relative;
+    height: 200px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.product .img-wrapper img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.product .product-title {
+    font-size: 110%;
+    font-weight: bold;
+}

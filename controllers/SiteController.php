@@ -117,12 +117,11 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays about page.
-     *
+     * @param $partial
      * @return string
      */
-    public function actionAbout()
+    public function actionViewProductPartial($partial)
     {
-        return $this->render('about');
+        return $this->renderPartial('_product-partials/'. $partial);
     }
 }
