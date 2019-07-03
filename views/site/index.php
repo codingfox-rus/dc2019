@@ -20,7 +20,7 @@ $this->title = 'Компания Дроб-комплекс';
 
             <div class="col-lg-3">
                 <div class="feature bg-primary">
-                    Дробильно-сортировочное оборудование на заказ по доступным ценам.
+                    Нестандартное оборудование по чертежам заказчика.
                 </div>
             </div>
             <div class="col-lg-3">
@@ -30,7 +30,7 @@ $this->title = 'Компания Дроб-комплекс';
             </div>
             <div class="col-lg-3">
                 <div class="feature bg-primary">
-                    Изготовление металлоконструкций, нестандартное оборудование по чертежам заказчика.
+                    Изготовление металлоконструкций.
                 </div>
             </div>
             <div class="col-lg-3">
@@ -135,46 +135,11 @@ $this->title = 'Компания Дроб-комплекс';
             <div class="col-lg-4">
                 <div class="product">
                     <div class="img-wrapper">
-                        <img src="/img/product-dsu-30.jpg" alt="ДСУ-30" title="ДСУ-30" class="img-responsive" data-partial="dsu30">
+                        <img src="/img/conveyor.jpg" alt="Конвейеры" title="Конвейеры" class="img-responsive" data-partial="conveyor">
                     </div>
 
                     <div class="text-center product-title">
-                        ДСУ-30
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="product">
-                    <div class="img-wrapper">
-                        <img src="/img/product-dsu-90.jpg" alt="ДСУ-90" title="ДСУ-90" class="img-responsive" data-partial="dsu90">
-                    </div>
-
-                    <div class="text-center product-title">
-                        ДСУ-90
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="product">
-                    <div class="img-wrapper">
-                        <img src="/img/product-drobilka.jpg" alt="Дробилки" title="Дробилки" class="img-responsive" data-partial="drobilka">
-                    </div>
-
-                    <div class="text-center product-title">
-                        Дробилки
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="product">
-                    <div class="img-wrapper">
-                        <img src="/img/product-mill.jpg" alt="Мельницы" title="Мельницы" class="img-responsive" data-partial="mill">
-                    </div>
-
-                    <div class="text-center product-title">
-                        Мельницы
+                        Конвейеры
                     </div>
                 </div>
             </div>
@@ -192,27 +157,18 @@ $this->title = 'Компания Дроб-комплекс';
             <div class="col-lg-4">
                 <div class="product">
                     <div class="img-wrapper">
-                        <img src="/img/product-riddle.jpg" alt="Грохоты" title="Грохоты" class="img-responsive" data-partial="riddle">
+                        <img src="/img/product-roller.jpg" alt="Рольганги" title="Рольганги" class="img-responsive" data-partial="roller">
                     </div>
 
                     <div class="text-center product-title">
-                        Грохоты
+                        Рольганги
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="product">
-                    <div class="img-wrapper">
-                        <img src="/img/product-conveyor.jpg" alt="Конвейеры" title="Конвейеры" class="img-responsive" data-partial="conveyor">
-                    </div>
+        <br>
 
-                    <div class="text-center product-title">
-                        Конвейеры
-                    </div>
-                </div>
-            </div>
+        <div class="row">
             <div class="col-lg-4">
                 <div class="product">
                     <div class="img-wrapper">
@@ -227,28 +183,101 @@ $this->title = 'Компания Дроб-комплекс';
             <div class="col-lg-4">
                 <div class="product">
                     <div class="img-wrapper">
-                        <img src="/img/product-roller.jpg" alt="Рольганги" title="Рольганги" class="img-responsive" data-partial="roller">
+                        <img src="/img/hydrooilstation.jpg" alt="Гидромаслостанции" title="Гидромаслостанции" class="img-responsive" data-partial="hydrooilstation">
                     </div>
 
                     <div class="text-center product-title">
-                        Рольганги
+                        Гидромаслостанции
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-4">
+            <div class="col-lg-4">
                 <div class="product">
                     <div class="img-wrapper">
-                        <img src="/img/product-elevator.jpg" alt="Элеваторы" title="Элеваторы" class="img-responsive" data-partial="elevator">
+                        <img src="/img/press.jpg" alt="Прессы" title="Прессы" class="img-responsive" data-partial="press">
                     </div>
 
                     <div class="text-center product-title">
-                        Элеваторы
+                        Прессы
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/tumbling-drum.jpg" alt="Барабаны галтовочные" title="Барабаны галтовочные" class="img-responsive" data-partial="tumbling-drum">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Барабаны галтовочные
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/laboratory-screen.jpg" alt="Грохота лабораторные" title="Грохота лабораторные" class="img-responsive" data-partial="laboratory-screen">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Грохота лабораторные
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/vibratory-feeder.jpg" alt="Вибропитатели" title="Вибропитатели" class="img-responsive" data-partial="vibratory-feeder">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Вибропитатели
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/drying-chamber.jpg" alt="Камеры сушильные" title="Камеры сушильные" class="img-responsive" data-partial="drying-chamber">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Камеры сушильные
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/painting-chamber.jpg" alt="Камеры окрасочные" title="Камеры окрасочные" class="img-responsive" data-partial="painting-chamber">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Камеры окрасочные
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product">
+                    <div class="img-wrapper">
+                        <img src="/img/fluid-line.jpg" alt="Линии по розливу и упаковке жидкостей" title="Линии по розливу и упаковке жидкостей" class="img-responsive" data-partial="fluid-line">
+                    </div>
+
+                    <div class="text-center product-title">
+                        Линии по розливу и упаковке жидкостей
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
     </div>
 
     <a name="contacts"></a>
@@ -263,11 +292,11 @@ $this->title = 'Компания Дроб-комплекс';
                 <table class="table table-bordered">
                     <tr>
                         <td><strong>Телефон</strong></td>
-                        <td>8 (951) 997 00 77</td>
+                        <td>8-965-685-04-54</td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td>rusdm98@mail.ru</td>
+                        <td>nikson6010@mail.ru</td>
                     </tr>
                     <tr>
                         <td>Адрес</td>

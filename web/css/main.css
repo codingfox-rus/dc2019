@@ -39,18 +39,14 @@
 
 .product .img-wrapper {
     position: relative;
-    height: 200px;
     margin-bottom: 5px;
     cursor: pointer;
+    height: 240px;
+    overflow: hidden;
 }
 
 .product .img-wrapper img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
 }
 
 .product .product-title {
