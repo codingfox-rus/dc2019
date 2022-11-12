@@ -292,15 +292,15 @@ $this->title = 'Компания Дроб-комплекс';
                 <table class="table table-bordered">
                     <tr>
                         <td><strong>Телефон</strong></td>
-                        <td>8-965-685-04-54</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td>nikson6010@mail.ru</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Адрес</td>
-                        <td>Россия, Чувашская Республика, п.г.т. Урмары, ул. Механизаторов, д.8</td>
+                        <td></td>
                     </tr>
                 </table>
             </div>
