@@ -70,7 +70,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy;  <?= date('Y') ?> ООО Дроб-комплекс</p>
+        <p class="pull-left">&copy;  <?= date('Y') ?> ООО Строительная компания</p>
     </div>
 </footer>
 

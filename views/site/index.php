@@ -1,14 +1,14 @@
 <?php
 /* @var $this yii\web\View */
 
-$this->title = 'Компания Дроб-комплекс';
+$this->title = 'Строительная компания';
 ?>
 <div class="site-index">
 
     <a name="index"></a>
     <div class="jumbotron">
-        <h2>Добро пожаловать на сайт компании</h2>
-        <h1>Дроб-комплекс!</h1>
+        <h2>Добро пожаловать на сайт</h2>
+        <h1>Строительной компании!</h1>
     </div>
 
     <div class="features">
